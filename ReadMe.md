@@ -1,6 +1,6 @@
 # Breezometer Slack Bot
 
-Get Air quality directly in Slack. Using Breezometer data.
+Get Air quality directly in Slack. Using [Breezometer](http://breezometer.com) data.
 
 # How-to
 Command to post in a Slack channel
@@ -16,15 +16,11 @@ result
 
 It gives you the air quality level and recommendations.
 
-:hatching_chick: for kids
-
-:heart: for health
-
-:house: for indoor
-
-:tent: for outdoor
-
-:soccer: for sport
+- :hatching_chick: for kids
+- :heart: for health
+- :house: for indoor
+- :tent: for outdoor
+- :soccer: for sport
 
 Failed request for a city not supported `breez Barcelona`
 
@@ -33,12 +29,11 @@ Failed request for a city not supported `breez Barcelona`
 ## Installation guide
 
 ### Pre-requisite
-  - Breezometer API account, [create one](breezometer.com/devel  opers-api/)
+  - Breezometer API account, [create one](http://breezometer.com/developers-api/)
   - Slack organization, [create one](https://slack.com/)
   - APItools account, [create one](https://apitools.com)
   - Time :)
-
-  
+ 
 ### Slack part
 #### 1. Create outgoing webhook
 Outgoing webhook is used to "listen" what's happening on channels.
